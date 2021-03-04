@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Karla', sans-serif;
+    color: #537A7A;
 }
 
 .port-header {
@@ -12,7 +13,6 @@
     padding-top: 86px;
     font-size: 24px;
     font-weight: 300;
-    color: #537A7A;
 }
 
 .header-content {
@@ -44,4 +44,26 @@
 
 .nav-item>a:link, .nav-item>a:visited, .nav-item>a:active {
     color: #537A7A;
+}
+
+.content-background {
+    background-color: #F0FEFF;
+}
+
+.intro-container {
+    padding-top: 50px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.intro-title {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+}
+
+.intro-text {
+    margin: 50px 85px;
+    font-size: 23px;
+    font-weight: 300;
 }
