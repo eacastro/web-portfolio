@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+.port-header {
+    background-color: #CCF2F4;
+    height: 200px;
+    padding-top: 86px;
+    font-size: 24px;
+    font-weight: 300;
+    color: #537A7A;
+}
+
+.header-content {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.nav-menu-container {
+    float: right;
+}
+
+.nav-menu {
+    list-style: none;
+}
+
+.nav-item:first-of-type {
+    margin-right: 0;
+}
+
+.nav-item {
+    float: right;
+    margin: 0 24px;
+}
+
+.nav-item>a {
+    text-decoration: none;
+}
+
+.nav-item>a:link, .nav-item>a:visited, .nav-item>a:active {
+    color: #537A7A;
+}
