@@ -59,13 +59,15 @@
     width: 1000px;
     height: 390px;
     margin: 0 auto;
+    border: 1px solid green
 }
 
 .intro-title {
     font-weight: 700;
     font-size: 50px;
-    text-align: center;
     margin-top: 50px;
+    text-align: center;
+    border: 1px solid green;
 }
 
 .intro-text {
@@ -84,6 +86,7 @@
     width: 320px;
     height: 360px;
     border: 1px solid red;
+    background: #F4F9F9;
 }
 
 .project-title {
