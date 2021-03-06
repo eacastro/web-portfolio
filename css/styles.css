@@ -59,15 +59,13 @@
     width: 1000px;
     height: 390px;
     margin: 0 auto;
-    border: 1px solid green
 }
 
 .intro-title {
     font-weight: 700;
     font-size: 50px;
-    margin-top: 50px;
+    padding-top: 50px;
     text-align: center;
-    border: 1px solid green;
 }
 
 .intro-text {
@@ -78,32 +76,28 @@
 
 .projects {
     width: 830px;
-    border: 1px solid red;
     margin: 0 auto;
 }
 
 .project {
     width: 320px;
-    height: 360px;
-    border: 1px solid red;
     background: #F4F9F9;
+    border-radius: 10px;
+    padding: 40px 0;
 }
 
 .project-title {
     text-align: center;
-    margin: 40px 0;
 }
 
 .tech-logo {
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
-    border: 1px solid red;
     font-size: 60px;
 }
 
 .project-description {
-    border: 1px solid red;
     margin: 0 27px 30px 27px;
 }
 
@@ -112,11 +106,14 @@
     width: 168px;
     height: 43px;
     border-radius: 10px;
-    margin: 26px auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .btn-label {
     color: #CCF2F4;
     font-size: 12px;
     font-weight: 500;
+    display: inline-block;
+    padding: 15px 0;
 }
