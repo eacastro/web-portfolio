@@ -77,13 +77,13 @@
 
 .projects {
     width: 830px;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
     position: relative;
     overflow: hidden;
 }
 
 .projects-row {
-   background: purple;
+    background: purple;
     overflow: hidden;
 }
 
@@ -95,8 +95,16 @@
     float: left;
 }
 
+.top {
+    margin-bottom: 67px;
+}
+
 .right-position {
     float: right;
+}
+
+.bottom {
+    margin-bottom: 0;
 }
 
 .project-title {
