@@ -82,11 +82,6 @@
     overflow: hidden;
 }
 
-.projects-row {
-    background: purple;
-    overflow: hidden;
-}
-
 .project {
     width: 320px;
     background: #F4F9F9;
@@ -107,7 +102,7 @@
     margin-bottom: 0;
 }
 
-.project-title {
+.title {
     text-align: center;
 }
 
@@ -120,6 +115,7 @@
 
 .project-description {
     margin: 0 27px 30px 27px;
+    text-align: justify;
 }
 
 .project-btn {
@@ -134,11 +130,56 @@
 .btn-label {
     color: #CCF2F4;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
     display: inline-block;
     padding: 15px 0;
 }
 
 .footer {
     clear: both;
+    background: #AAAAAA;
+    padding-top: 50px;
+}
+
+.footer-title {
+    color: #F7F7F7;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.social-buttons {
+    width: 670px;
+    margin: 0 auto 50px auto;
+    color: blue;
+}
+
+.social-btn {
+    width: 150px;
+    height: 85px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.social-btn:link, .social-btn:visited, .social-btn:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.youtube {
+    background: #FF0000;
+}
+
+.linkedin {
+    background: #0077B5;
+    margin: 0 105px;
+}
+
+.facebook {
+    background: #3B5998;
+}
+
+.credits {
+    background: #707070;
+    height: 50px;
+    color: #FFF;
 }
